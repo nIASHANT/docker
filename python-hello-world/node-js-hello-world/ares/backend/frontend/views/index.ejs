@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Names List</title>
+</head>
+<body>
+
+    <h1>Data from Backend</h1>
+    <p>Hello, Nishant Good JOB.</p>
+
+    <ul>
+        <% data.data.forEach(function(name) { %>
+            <li><%= name %></li>
+        <% }) %>
+    </ul>
+
+</body>
+<style>
+    body {
+        background-color: black;
+        color: greenyellow;
+    }
+    
+</style>
+</html>
